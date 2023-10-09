@@ -2,11 +2,9 @@ import java.util.Scanner;
 
 public class WhileKelipatan23 {
     public static void main(String[] args) {
-        public static void main(String[] args) {
-
         Scanner scan = new Scanner(System.in);
         int kelipatan, jumlah=0, counter=0;
-        double average;
+        
 
         System.out.println("Masukkan bilangan kelipatan (1-9) : ");
         kelipatan = scan.nextInt();
