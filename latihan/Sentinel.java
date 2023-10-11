@@ -13,12 +13,12 @@ public class Sentinel {
         angka = sc.nextInt();
         if (angka >=0) {
             jumlah += angka;
-            ++counter;
+            +counter;
             }
         } while (angka != -1) ;
         rata = jumlah / counter;
-        System.out.printf("Jumlah dari angka %d adalah %d\n", counter, jumlah);
-        System.out.printf("Rata-rata dari %d adalah %.3f\n", counter, rata);;
+        System.out.printf("Jumlah dari %d angka adalah %d\n", counter, jumlah);
+        System.out.printf("Rata-rata dari %d angka  adalah %.3f\n", counter, rata);;
         
     }   
 }
