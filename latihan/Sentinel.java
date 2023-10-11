@@ -13,7 +13,7 @@ public class Sentinel {
         angka = sc.nextInt();
         if (angka >=0) {
             jumlah += angka;
-            +counter;
+            ++counter;
             }
         } while (angka != -1) ;
         rata = jumlah / counter;
